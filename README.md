@@ -80,7 +80,7 @@
 
 ## Сборка проекта
 
-1. Через VS Studio 2019 открыть dctdriver.sln и скомпилировать release версии для ARM и X86 платформы. Перенести скомпилированные .so либы в папку package.
+1. Через VS Studio 2019 открыть androidUtils.sln и скомпилировать release версии для ARM и X86 платформы. Перенести скомпилированные .so либы в папку package.
 
 2 Через Android Studio не ниже 3.5 открыть каталог android и скомпилировать apk (Build -> Build bundle / APK -> APK) и перенести скомпилированный apk в папку package.
 
