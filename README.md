@@ -95,7 +95,7 @@
 2. Тест вызывает из java native функцию C++
 3. Функция C++ тестирует какой-то нативный метод компоненты
 
-Пример можно посмотреть здесь [LICENSE](LICENSE)
+Пример можно посмотреть здесь [ExampleInstrumentedTest.java](android/app/src/androidTest/java/org/ripreal/androidutils/ExampleInstrumentedTest.java)
 
 ## Лицензия
 
