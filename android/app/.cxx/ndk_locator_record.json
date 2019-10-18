@@ -1,0 +1,41 @@
+{
+  "ndkFolder": "D:\\games\\programms\\android_sdk_studio\\ndk-bundle",
+  "messages": [
+    {
+      "level": "INFO",
+      "message": "android.ndkVersion from module build.gradle is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ndk.dir in local.properties is D:\\games\\programms\\android_sdk_studio\\ndk-bundle"
+    },
+    {
+      "level": "INFO",
+      "message": "ANDROID_NDK_HOME environment variable is D:\\games\\programms\\android_sdk_studio\\ndk-bundle"
+    },
+    {
+      "level": "INFO",
+      "message": "sdkFolder is D:\\games\\programms\\android_sdk_studio"
+    },
+    {
+      "level": "WARN",
+      "message": "Support for ANDROID_NDK_HOME is deprecated and will be removed in the future. Use android.ndkVersion in build.gradle instead."
+    },
+    {
+      "level": "INFO",
+      "message": "Considering D:\\games\\programms\\android_sdk_studio\\ndk-bundle by ndk.dir"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering D:\\games\\programms\\android_sdk_studio\\ndk-bundle by ANDROID_NDK_HOME"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering D:\\games\\programms\\android_sdk_studio\\ndk-bundle in SDK ndk-bundle folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested ndk.dir (D:\\games\\programms\\android_sdk_studio\\ndk-bundle) which has version 20.0.5594570"
+    }
+  ]
+}
