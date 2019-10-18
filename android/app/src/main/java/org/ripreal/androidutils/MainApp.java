@@ -78,4 +78,6 @@ public class MainApp implements Runnable {
   }
 
   public native void testScreenActions();
+
+  public native void testSleep();
 }

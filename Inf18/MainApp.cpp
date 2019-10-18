@@ -13,6 +13,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include <wchar.h>
+#include <thread>
 #include "MainApp.h"
 #include "ConversionWchar.h"
 
@@ -60,6 +61,10 @@ void MainApp::Initialize(IAddInDefBaseEx* cnn)
 			}
 		}
 	}
+}
+
+void MainApp::sleep(long delay) {
+    std::this_thread::sleep_for(std::chrono::milliseconds(delay));
 }
 
 void MainApp::startScreenWatch() const

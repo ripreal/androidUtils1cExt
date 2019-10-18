@@ -23,3 +23,17 @@ Java_org_ripreal_androidutils_MainApp_testScreenActions(JNIEnv *env, jobject obj
     mainApp.setOBJ(obj);
     mainApp.startScreenWatch();
 }
+
+
+extern "C"
+JNIEXPORT void JNICALL
+Java_org_ripreal_androidutils_MainApp_testSleep(JNIEnv *env, jobject objloc) {
+    jclass ccLoc = env ->GetObjectClass(objloc);
+    jclass cc = static_cast<jclass>(env->NewGlobalRef(ccLoc));
+    jobject obj = static_cast<jobject>(env->NewGlobalRef(objloc));
+
+    MainApp mainApp{};
+    mainApp.setCC(cc);
+    mainApp.setOBJ(obj);
+    mainApp.sleep(2000);
+}

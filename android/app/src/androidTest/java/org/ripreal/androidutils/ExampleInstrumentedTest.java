@@ -16,10 +16,11 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
+
   @Test
-  public void useAppContext() {
-    // Context of the app under test.
-    Context appContext = InstrumentationRegistry.getTargetContext();
-    assertEquals("org.ripreal.androidutils", appContext.getPackageName());
+  public void testSleep() {
+    System.loadLibrary("org_ripreal_androidutils");
+    MainApp mainApp = new MainApp(null, 0);
+    mainApp.testSleep();
   }
 }

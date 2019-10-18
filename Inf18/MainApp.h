@@ -40,6 +40,7 @@ public:
 
 	void Initialize(IAddInDefBaseEx*);
 
+	void sleep(long delay);
 	void startScreenWatch() const; // Start monitoring lock state
 	void stopScreenWatch() const; // End of monitoring
 };

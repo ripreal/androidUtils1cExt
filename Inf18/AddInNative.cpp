@@ -374,7 +374,7 @@ bool AddInNative::CallAsProc(const long lMethodNum, tVariant* paParams, const lo
 		{
 			long lDelay = numericValue(paParams);
 			if (lDelay > 0)
-				std::this_thread::sleep_for(std::chrono::milliseconds(lDelay));
+				javaMainApp.sleep(lDelay);
 			return true;
 		}
 		case eMethStartScreenWatch: {
