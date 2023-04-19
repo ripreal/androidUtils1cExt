@@ -1,3 +1,8 @@
+
+
+| :memo:        | Попробуйте мою новую библиотеку на [BASIS-API](https://basis-api.com) для интеграции с Whatsapp - [whatsapp-api-client-1c](https://github.com/Yard-Team/whatsapp-api-client-1c)      |
+|---------------|:------------------------|
+
 # Пример (шаблон) внешней компоненты для мобильной платформы 1С
 
 # Введение
